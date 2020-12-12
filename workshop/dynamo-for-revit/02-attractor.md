@@ -53,7 +53,7 @@ NumberSliderの設定は左側の矢印を選択すると設定することが�
 **Query**は時間など既知の値を取得してくれます。
 
 
-##点を作成する方法
+##  点を作成する方法
 
 左のタブの中の**Geometry**から**Point**を選択すると点を作成するノードがあります。
 ![image](https://user-images.githubusercontent.com/48234687/101980088-497b7f00-3ca6-11eb-934a-c47ad8939f99.png)
@@ -65,7 +65,13 @@ NumberSliderの設定は左側の矢印を選択すると設定することが�
 {% hint style="danger" %}
 ノード組み合わせていると，膨大なノードで分からなくなるので，整理することが大切です。
 例としてノードをBoxなどで整理しましょう。
+
+
 ![image](https://user-images.githubusercontent.com/48234687/101980329-da9f2580-3ca7-11eb-9fec-95041b761e37.png)
 {% endhint %}
+
+
+
+## 点から線を作成する方法
 
 
