@@ -54,6 +54,37 @@ NumberSliderの設定は左側の矢印を選択すると設定することが�
 ノード組み合わせていると，膨大なノードで分からなくなるので，整理することが大切です。 例としてノードをBoxなどで整理しましょう。 ![image](https://user-images.githubusercontent.com/48234687/101980329-da9f2580-3ca7-11eb-9fec-95041b761e37.png)
 {% endhint %}
 
+### 2点から線の作成方法
+
+以下のノード構成で二点から線を作成することができます.
+
+![image](https://user-images.githubusercontent.com/48234687/102004657-0b3d9880-3d56-11eb-942e-334cccc2e87c.png)
+
+### 作成した線から面を押し出す方法
+
+ **Geometory**  の中にある**Curve**から**Extrude**を選択します.
+
+![image](https://user-images.githubusercontent.com/48234687/102004748-c2d2aa80-3d56-11eb-99b4-8ffe16470aad.png)
+
+**Cureve**の箇所を**Line**と接続して，**Distance**をNumber Sliderなどとつなげます. するとXY平面の面が作成されます.
+
+![image](https://user-images.githubusercontent.com/48234687/102004787-3aa0d500-3d57-11eb-820f-8e35f1570fb8.png)
+
+サーフェスを表示している際に，点や線が不要に感じた場合はラインの場合だとラインを作成しているノードを右クリックします. そこでプレビューをオフにします.オフにすることでラインが非表示になります.
+
+![image](https://user-images.githubusercontent.com/48234687/102004859-ee09c980-3d57-11eb-87a6-e27fdf2d6c54.png)
+
+次にノードを右クリックをしてフリーズを選択するとノードとノードにつながるものが点線になります. フリーズはプログラミングの際にコメントアウトする機能と同じです.
+
+![image](https://user-images.githubusercontent.com/48234687/102004907-5f497c80-3d58-11eb-9213-fa96a90f401d.png)
+
+![image](https://user-images.githubusercontent.com/48234687/102004923-8902a380-3d58-11eb-9fba-c3dce76bc9da.png)
+
+{% hint style="danger" %}
+フリーズはノードが多くなった場合，動作が重くなるため必要な時以外はフリーズにすることをお勧めします. 必要な時にだけフリーズを解除して表示してください.
+{% endhint %}
+
+
 ### アトラクタの作成
 
 まず，基準となる点を作成します.
